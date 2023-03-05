@@ -20,6 +20,7 @@ print(test.strip())
 
 for item in items:
     print(item.a.get_text().strip())
+    # strip()을 통해 공백을 제거할수 있음
 
 
 # # 정규식을 이용하여 td-num, td-sum, td-subject 등을 한번에 가져옴
